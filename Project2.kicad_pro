@@ -398,6 +398,10 @@
     [
       "a1364e18-a1b3-493d-93e7-a1770a30bf35",
       "Sensors"
+    ],
+    [
+      "281e3246-fc88-46a4-86cc-922a96fe6df3",
+      "LCD"
     ]
   ],
   "text_variables": {}

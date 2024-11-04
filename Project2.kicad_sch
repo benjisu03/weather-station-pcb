@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 233.68 119.38)
+		(size 12.7 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "281e3246-fc88-46a4-86cc-922a96fe6df3")
+		(property "Sheetname" "LCD"
+			(at 233.68 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 233.68 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 68.58 104.14)
 		(size 73.66 34.29)
 		(fields_autoplaced yes)
