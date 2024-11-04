@@ -390,6 +390,14 @@
     [
       "db1ed3d3-f9ac-49e3-915b-45158cabfd8f",
       "Microcontroller"
+    ],
+    [
+      "5514041e-e265-4cf8-ab83-21689ce61dd9",
+      "Regulatorspowerin"
+    ],
+    [
+      "a1364e18-a1b3-493d-93e7-a1770a30bf35",
+      "Sensors"
     ]
   ],
   "text_variables": {}
