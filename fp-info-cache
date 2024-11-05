@@ -1,4 +1,4 @@
-23667993407218233
+23671454961276503
 AA_Capacitors
 35ZLH1000MEFCG412_5X20
 35ZLH1000MEFCG412.5X20
@@ -83,6 +83,13 @@ Integrated Circuit
 0
 25
 25
+AA_Interface_USB
+QFP50P1200X1200X160-64N
+LQFP-64
+Integrated Circuit
+0
+64
+64
 AA_MCUs
 ESP32S3WROOM1N16R2
 41-SMD
@@ -104,6 +111,13 @@ RCWCTE
 0
 1
 1
+AA_USB_Interface
+QFP50P1200X1200X160-64N
+LQFP-64
+Integrated Circuit
+0
+64
+64
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
