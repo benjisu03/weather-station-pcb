@@ -584,8 +584,16 @@
       "Microcontroller"
     ],
     [
-      "4d601933-c56f-4aa2-b954-62ae905fff23",
-      "Input"
+      "5514041e-e265-4cf8-ab83-21689ce61dd9",
+      "Regulatorspowerin"
+    ],
+    [
+      "a1364e18-a1b3-493d-93e7-a1770a30bf35",
+      "Sensors"
+    ],
+    [
+      "281e3246-fc88-46a4-86cc-922a96fe6df3",
+      "LCD"
     ]
   ],
   "text_variables": {}

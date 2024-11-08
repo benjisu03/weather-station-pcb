@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 76.835 53.975)
-		(size 29.845 23.495)
+		(at 233.68 119.38)
+		(size 12.7 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16,9 +16,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "4d601933-c56f-4aa2-b954-62ae905fff23")
-		(property "Sheetname" "Input"
-			(at 76.835 53.2634 0)
+		(uuid "281e3246-fc88-46a4-86cc-922a96fe6df3")
+		(property "Sheetname" "LCD"
+			(at 233.68 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,8 +26,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "input.kicad_sch"
-			(at 76.835 78.0546 0)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 233.68 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,146 +35,92 @@
 				(justify left top)
 			)
 		)
-		(pin "JTAG_TCK" output
-			(at 106.68 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7ba7804a-efa5-4124-a566-a4c28879bcbc")
-		)
-		(pin "JTAG_TDO" output
-			(at 106.68 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8a5c88d9-fef9-4ec0-9c61-2a53ae6d1bf4")
-		)
-		(pin "JTAG_TDI" output
-			(at 106.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7f71bc5d-d281-4e73-b580-66cbb2b0af18")
-		)
-		(pin "JTAG_TMS" output
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "88be0410-efb8-4305-9225-c8461659f101")
-		)
-		(pin "UART_RXD" output
-			(at 106.68 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3f171d6d-8498-4157-b1f7-123b8f47960a")
-		)
-		(pin "UART_~{CTS}" output
-			(at 106.68 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b5d7f03c-aaf5-4e40-85a6-b6fcc2dc7b45")
-		)
-		(pin "UART_~{RTS}" output
-			(at 106.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d812846d-e5d4-4e84-96ac-baf7a5eb6b80")
-		)
-		(pin "UART_~{DTR}" output
-			(at 76.835 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "89536721-d3f0-439b-ab97-581f1d102e59")
-		)
-		(pin "UART_TXD" output
-			(at 76.835 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "97286419-1118-45d9-8ede-1b023202dd4b")
-		)
-		(pin "UART_~{DCD}" output
-			(at 76.835 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4171df29-0971-4905-b477-a18445db6d11")
-		)
-		(pin "UART_~{RI}" output
-			(at 76.835 64.77 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "24fdd668-148b-4f72-98c8-70f668663a0a")
-		)
-		(pin "UART_TXDEN" output
-			(at 76.835 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2b125a1f-aa50-406a-9961-8a6c85a82c6c")
-		)
-		(pin "UART_~{DSR}" output
-			(at 76.835 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8330bbf6-82da-460b-b7b1-05f88aacbb5d")
-		)
 		(instances
 			(project "Project2"
 				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e"
-					(page "3")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 108.585 53.975)
+		(at 68.58 104.14)
+		(size 73.66 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5514041e-e265-4cf8-ab83-21689ce61dd9")
+		(property "Sheetname" "Regulatorspowerin"
+			(at 68.58 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 68.58 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 53.34)
+		(size 35.56 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1364e18-a1b3-493d-93e7-a1770a30bf35")
+		(property "Sheetname" "Sensors"
+			(at 151.13 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 151.13 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 108.585 53.34)
 		(size 29.845 23.495)
 		(fields_autoplaced yes)
 		(stroke
@@ -186,7 +132,7 @@
 		)
 		(uuid "db1ed3d3-f9ac-49e3-915b-45158cabfd8f")
 		(property "Sheetname" "Microcontroller"
-			(at 108.585 53.2634 0)
+			(at 108.585 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 108.585 78.0546 0)
+			(at 108.585 77.4196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
