@@ -1365,7 +1365,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D2"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "e2106f90-843a-41a2-bae0-3fb321ecebb3")
 			(effects
@@ -1376,7 +1376,7 @@
 			)
 		)
 		(property "Value" "ESDA6V1BC6"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "f1709181-c240-4a50-a0dc-13a0d1ef3e55")
 			(effects
@@ -1573,7 +1573,7 @@
 			(uuid "6f7ab08d-9829-4d8a-8ccd-74f481295745")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "dffeccd1-4267-4f86-89a0-d74cf252b2fb")
 			(effects
@@ -4163,5 +4163,21 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ec90d5a8-d006-42ea-9d46-07356626a249")
+	)
+	(segment
+		(start 84.755 83.8)
+		(end 88.605 79.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "6fd4d1c7-f32c-4e61-b262-c8ce299261d0")
+	)
+	(segment
+		(start 88.605 79.95)
+		(end 96.5 79.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "caedc33b-4412-4b5e-910d-8c44077b308f")
 	)
 )
