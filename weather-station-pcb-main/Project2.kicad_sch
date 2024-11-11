@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e8eb11e1-6cec-414d-9150-5cfb3d1c103e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 233.68 119.38)
+		(size 12.7 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "281e3246-fc88-46a4-86cc-922a96fe6df3")
+		(property "Sheetname" "LCD"
+			(at 233.68 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 233.68 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 104.14)
+		(size 73.66 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5514041e-e265-4cf8-ab83-21689ce61dd9")
+		(property "Sheetname" "Regulatorspowerin"
+			(at 68.58 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 68.58 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 53.34)
+		(size 35.56 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1364e18-a1b3-493d-93e7-a1770a30bf35")
+		(property "Sheetname" "Sensors"
+			(at 151.13 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 151.13 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 108.585 53.34)
+		(size 29.845 23.495)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db1ed3d3-f9ac-49e3-915b-45158cabfd8f")
+		(property "Sheetname" "Microcontroller"
+			(at 108.585 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 108.585 77.4196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
