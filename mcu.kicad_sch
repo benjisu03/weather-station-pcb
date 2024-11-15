@@ -2872,6 +2872,12 @@
 		(uuid "1adcb69b-bd10-4279-b676-b812189b10e1")
 	)
 	(junction
+		(at 71.12 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ef21c67-beac-455e-8ee9-5399534ea3b6")
+	)
+	(junction
 		(at 146.05 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3311,6 +3317,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 85.09) (xy 72.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997f370e-e283-4b8f-9a61-bdbfabfe574d")
+	)
+	(wire
+		(pts
 			(xy 146.05 39.37) (xy 146.05 36.83)
 		)
 		(stroke
@@ -3661,6 +3677,28 @@
 			(justify left bottom)
 		)
 		(uuid "fd2489ca-73b1-4ded-b9d8-7d14d5a952ca")
+	)
+	(global_label "USB_5V"
+		(shape input)
+		(at 72.39 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "186c04c1-e7a0-4b62-923a-7dc4ce21c934")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.4509 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3.3V"
 		(shape input)

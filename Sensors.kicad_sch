@@ -845,6 +845,285 @@
 				)
 			)
 		)
+		(symbol "pressuresens:KP256XTMA2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KP256XTMA2"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "KP256XTMA2"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-KP256-DS-v01_01-EN.pdf?fileId=5546d46254e133b401557355c111643e"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pressure Sensor 60kPa to 165kPa Absolute 8-Pin DSOF T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.9"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KP256XTMA2"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "726-KP256XTMA2"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/KP256XTMA2?qs=Qyx3PVvfm65N1O7d8cM2kA%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "KP256XTMA2_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NCS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "VPROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 121.92 85.09)
@@ -857,6 +1136,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d434312-5cc2-4043-8d58-09c17900879d")
+	)
+	(junction
+		(at 105.41 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6abc8f71-f3d6-4114-80b0-5688f5747bf8")
 	)
 	(junction
 		(at 100.33 46.99)
@@ -883,6 +1168,12 @@
 		(uuid "dcbb596d-100a-44ad-9e25-0d8a77cf0e33")
 	)
 	(junction
+		(at 105.41 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6adb91b-4839-4fce-ad66-6e63971c0d49")
+	)
+	(junction
 		(at 120.65 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -907,6 +1198,26 @@
 			(type default)
 		)
 		(uuid "02c5757a-2b78-4aa1-b63a-6a7af6a85c42")
+	)
+	(wire
+		(pts
+			(xy 73.66 134.62) (xy 63.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107657f2-873c-4297-855c-a75bc233a242")
+	)
+	(wire
+		(pts
+			(xy 73.66 129.54) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10facd5e-55bf-45b0-9e48-0c5a0ac63bb3")
 	)
 	(wire
 		(pts
@@ -950,6 +1261,26 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 127) (xy 110.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e126b71-fc23-4816-996d-035a819103b3")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b7a0d1-1450-43c6-a92a-2d095fa0d3ab")
+	)
+	(wire
+		(pts
 			(xy 116.84 73.66) (xy 116.84 82.55)
 		)
 		(stroke
@@ -960,6 +1291,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d073fa-7673-4679-ae1e-1a611a840c76")
+	)
+	(wire
+		(pts
 			(xy 116.84 90.17) (xy 120.65 90.17)
 		)
 		(stroke
@@ -967,6 +1308,26 @@
 			(type default)
 		)
 		(uuid "614f8b36-cd7c-48a4-bbc9-a54a0b4f2a6a")
+	)
+	(wire
+		(pts
+			(xy 101.6 132.08) (xy 105.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b2750c-0188-43de-b9a7-b1442cd9d680")
+	)
+	(wire
+		(pts
+			(xy 105.41 132.08) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da28c45-0482-4d70-80c5-7090d68ab59a")
 	)
 	(wire
 		(pts
@@ -1030,6 +1391,26 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 134.62) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9e1a90-01c3-4596-931a-5e0ab34a877b")
+	)
+	(wire
+		(pts
+			(xy 101.6 134.62) (xy 105.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32a41e7-195e-44c9-9ed5-3ba3eade556d")
+	)
+	(wire
+		(pts
 			(xy 100.33 46.99) (xy 100.33 48.26)
 		)
 		(stroke
@@ -1037,6 +1418,16 @@
 			(type default)
 		)
 		(uuid "a51b9dda-4108-492d-bb4a-dc674cf1c7ba")
+	)
+	(wire
+		(pts
+			(xy 63.5 132.08) (xy 73.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be91d286-6a03-4059-822e-faa102873695")
 	)
 	(wire
 		(pts
@@ -1120,6 +1511,50 @@
 			)
 		)
 	)
+	(global_label "GPIO37"
+		(shape input)
+		(at 63.5 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b35be1d-a9b6-4a15-9b60-314f944b829b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.6205 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO36"
+		(shape input)
+		(at 63.5 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bdae642-40d5-47d8-9c7b-b5dec2b0d0bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.6205 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Humidity"
 		(shape input)
 		(at 151.13 73.66 0)
@@ -1138,6 +1573,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO35"
+		(shape input)
+		(at 63.5 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79dfeafc-ed95-4c90-91bf-8cbd89b0ff14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.6205 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1186,6 +1643,28 @@
 			)
 		)
 	)
+	(global_label "GPIO34"
+		(shape input)
+		(at 63.5 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf8e5a79-78b6-4e28-a735-150a4eb680cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.6205 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 78.74 46.99 180)
@@ -1205,6 +1684,186 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 109.22 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f784cf2a-de99-48a1-953f-8d24d7707966")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.3176 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pressuresens:KP256XTMA2")
+		(at 73.66 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "054b61cd-782f-47ab-ba20-8f1029852ea0")
+		(property "Reference" "IC1"
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP256XTMA2"
+			(at 87.63 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Weather Station:KP256XTMA2"
+			(at 97.79 221.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-KP256-DS-v01_01-EN.pdf?fileId=5546d46254e133b401557355c111643e"
+			(at 97.79 321.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pressure Sensor 60kPa to 165kPa Absolute 8-Pin DSOF T/R"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.9"
+			(at 97.79 521.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 97.79 621.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KP256XTMA2"
+			(at 97.79 721.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-KP256XTMA2"
+			(at 97.79 821.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/KP256XTMA2?qs=Qyx3PVvfm65N1O7d8cM2kA%3D%3D"
+			(at 97.79 921.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 97.79 1021.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 97.79 1121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e048c37a-20e5-4036-b840-9c72cec609d3")
+		)
+		(pin "6"
+			(uuid "a8099c7d-c7c8-4089-93e7-126c61612a8f")
+		)
+		(pin "8"
+			(uuid "4e91e2b9-6df6-4505-8437-f2aceaaa1b1b")
+		)
+		(pin "4"
+			(uuid "32c38fa0-0c6c-49b6-bfaa-647aaf0ea2df")
+		)
+		(pin "7"
+			(uuid "436dd87c-6605-4acd-8684-35d84395d4e4")
+		)
+		(pin "3"
+			(uuid "15b72470-81aa-4e88-9ce7-e20212588360")
+		)
+		(pin "1"
+			(uuid "8e29ad8f-4e7f-43a2-8f1a-bf70420a3da5")
+		)
+		(pin "5"
+			(uuid "f289dcec-73a3-43c7-9e24-d18b8f1727bb")
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e/a1364e18-a1b3-493d-93e7-a1770a30bf35"
+					(reference "IC1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1831,6 +2490,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 105.41 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "927cb0ab-21b5-4d88-abf4-e6efc2da779c")
+		(property "Reference" "#PWR020"
+			(at 105.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 108.458 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85af5a6c-e13d-4153-a23b-7adff0658ab0")
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e/a1364e18-a1b3-493d-93e7-a1770a30bf35"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 100.33 52.07 0)
 		(unit 1)
@@ -1901,6 +2625,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c2af704-bae0-4039-a9a0-402d83877393")
+		(property "Reference" "#PWR021"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.538 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ce8de65-ec36-4051-9037-a4b265f26561")
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e/a1364e18-a1b3-493d-93e7-a1770a30bf35"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Photo")
 		(at 90.17 46.99 270)
 		(unit 1)
@@ -1964,6 +2753,76 @@
 			(project "Project2"
 				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e/a1364e18-a1b3-493d-93e7-a1770a30bf35"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f93d8078-a184-42a3-a27d-1fd2c127001e")
+		(property "Reference" "C6"
+			(at 109.22 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 109.22 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 106.3752 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d94860d-f885-4c99-b1ae-b582fedf67ae")
+		)
+		(pin "1"
+			(uuid "550c4275-d367-4279-b12e-9c76919d0626")
+		)
+		(instances
+			(project "Project2"
+				(path "/e8eb11e1-6cec-414d-9150-5cfb3d1c103e/a1364e18-a1b3-493d-93e7-a1770a30bf35"
+					(reference "C6")
 					(unit 1)
 				)
 			)
