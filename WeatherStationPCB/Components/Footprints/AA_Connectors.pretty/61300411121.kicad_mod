@@ -1,0 +1,216 @@
+(footprint "61300411121"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WR-PHD </B><BR>2.54mm Pin Header, 4 Pin")
+	(property "Reference" "REF**"
+		(at -8.1096 -0.6625 0)
+		(layer "F.SilkS")
+		(uuid "28dcf6b4-e991-40a1-9cdc-315b77ace049")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "61300411121"
+		(at -10.468 1.0378 0)
+		(layer "F.Fab")
+		(uuid "c4a5ff52-16af-40e5-b2d7-0e30fe96c162")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6965c096-b619-48b3-b7fc-ae6c14f0a785")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64e4c959-0881-4fec-a703-5e4fd65f342d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cb3b6e7-b47a-4c43-8c54-23a36fa4b78c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.18 -1.37)
+		(end 5.18 -1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5506213-17fe-4dcd-b7cc-24e580359e15")
+	)
+	(fp_line
+		(start -5.18 1.37)
+		(end -5.18 -1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddcce75a-7f5b-4bc4-aecc-1174b13fe654")
+	)
+	(fp_line
+		(start 5.18 -1.37)
+		(end 5.18 1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c45b3d5-4e2b-4e7c-8976-e1bafa86458b")
+	)
+	(fp_line
+		(start 5.18 1.37)
+		(end -5.18 1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "313a2bf0-af69-4259-a996-2cbb1f4cd98e")
+	)
+	(fp_circle
+		(center -4.7 0.9)
+		(end -4.6 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cb0c2615-9ca4-48bc-949f-ce50bf8d448c")
+	)
+	(fp_poly
+		(pts
+			(xy -5.38 -1.57) (xy 5.38 -1.57) (xy 5.38 1.57) (xy -5.38 1.57)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5fa60d5b-9b91-42f7-ac7f-e60f242396a5")
+	)
+	(fp_line
+		(start -5.08 -1.27)
+		(end -5.08 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1a281d7-0dda-47c5-87c1-df186431b680")
+	)
+	(fp_line
+		(start -5.08 1.27)
+		(end 5.08 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4317033b-7844-4e45-85dd-061247434d36")
+	)
+	(fp_line
+		(start 5.08 -1.27)
+		(end -5.08 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2bafc15-cad9-415f-8a2a-a030c367ac49")
+	)
+	(fp_line
+		(start 5.08 1.27)
+		(end 5.08 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3dc92f94-b0a3-428e-ac42-716cb80a0515")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "01b69dd7-d162-4521-bded-9f85534090e6")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ac02ef90-cc72-4ab7-a2bc-0b2a2c7c0321")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "435cd579-1f8f-4000-a7e6-6ca8208590c9")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "09f15451-309f-41a7-9083-c33e1ee87e46")
+	)
+	(model "${KIPRJMOD}/Components/Models/AA_Connectors/61300411121.step"
+		(offset
+			(xyz 0 0 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

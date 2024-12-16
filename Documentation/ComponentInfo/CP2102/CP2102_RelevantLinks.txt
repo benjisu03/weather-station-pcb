@@ -1,0 +1,3 @@
+!--- CP2102 Relevant Links ---!
+
+USB to UART Design - https://resources.altium.com/p/cp2102-usb-uart-module-pcb-design-project

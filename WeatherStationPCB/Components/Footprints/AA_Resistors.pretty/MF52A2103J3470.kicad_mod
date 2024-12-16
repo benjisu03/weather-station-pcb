@@ -1,0 +1,208 @@
+(footprint "MF52A2103J3470"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MF52A2103J3470-3")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 6 1 0)
+		(layer "F.SilkS")
+		(uuid "88047a29-8e88-46e0-b4d6-e18fd84133c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MF52A2103J3470"
+		(at 1.1 -3.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8e61b25d-ecf2-4516-bb76-456f09e5a1d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7439a2a-e5e3-435d-998e-4734b65d61f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd8f381a-1252-44a9-bb57-122d79405cc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea0ab742-ffff-457d-9b5d-f141dc475094")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1 -1.5)
+		(end 1.2 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "772bf70d-6551-4bcc-a2fb-014d33ddeb77")
+	)
+	(fp_line
+		(start 1 1.5)
+		(end 1.2 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8316c8a4-0e48-49b3-b193-63057ec80e00")
+	)
+	(fp_line
+		(start -1.6 -2.5)
+		(end 3.8 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a208119-ed76-457f-909a-4ce9f5dfdbff")
+	)
+	(fp_line
+		(start -1.6 2.5)
+		(end -1.6 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1672aff-74d3-40ca-a3c1-7b05d1e418df")
+	)
+	(fp_line
+		(start 3.8 -2.5)
+		(end 3.8 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b725e607-b932-46bf-8cbb-16ccc306af8b")
+	)
+	(fp_line
+		(start 3.8 2.5)
+		(end -1.6 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9eb6d6d-e43a-40c4-b6ef-b6c67bce9460")
+	)
+	(fp_line
+		(start 1.1 -1.5)
+		(end 1.1 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33bdf362-dee9-4b99-98a7-cb39d1e62d64")
+	)
+	(fp_line
+		(start 1.1 1.5)
+		(end 1.1 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb1b34a5-7c33-42c5-bdf8-5cf5d7b04da7")
+	)
+	(fp_arc
+		(start 1.1 -1.5)
+		(mid 2.6 0)
+		(end 1.1 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e62d27ab-d631-4fc9-84f1-c73540ad68c8")
+	)
+	(fp_arc
+		(start 1.1 1.5)
+		(mid -0.4 0)
+		(end 1.1 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08f6bff3-0c1b-4c99-b3e2-d9abc1392e42")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1 4.5 0)
+		(layer "F.Fab")
+		(uuid "ae8128a3-e062-42e5-aba7-2fc84fc542d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1c4409fb-936b-4bfa-902f-80a465ddda9b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.2 0)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8d3cac4-d309-4151-95e0-4f6bb04a456b")
+	)
+	(model "${KIPRJMOD}/Components/Models/AA_Resistors/MF52A2103J3470.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
