@@ -1,0 +1,419 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "189669a5-f2fc-4cde-9413-8df80c557655")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 137.16 115.57) (xy 149.86 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1afa4cb2-28ca-472a-a3dd-9f866dbf98b7")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 149.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516aa840-7b85-458b-8ac2-feace61960f3")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 149.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4cf45-aa14-4345-906e-a683609758cd")
+	)
+	(wire
+		(pts
+			(xy 137.16 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae34496-662b-4370-b1dc-b00f857d1090")
+	)
+	(wire
+		(pts
+			(xy 137.16 85.09) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912847f9-975b-4264-b88f-8048448fb0fa")
+	)
+	(wire
+		(pts
+			(xy 137.16 100.33) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4399d6-c77e-49ee-84e9-cc8f8e034c64")
+	)
+	(wire
+		(pts
+			(xy 137.16 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7dd2a9-69d2-4d73-883e-0106e261a427")
+	)
+	(wire
+		(pts
+			(xy 137.16 92.71) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20c6510-155a-454f-919e-7eb6635503d0")
+	)
+	(wire
+		(pts
+			(xy 137.16 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6846e0e-09b3-4ebd-8a59-ab2190915b7c")
+	)
+	(wire
+		(pts
+			(xy 137.16 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ecda06-e550-4e25-b3e3-a46d5c4e8208")
+	)
+	(wire
+		(pts
+			(xy 137.16 118.11) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc0750b-81ee-4896-93a4-4c143ef9b449")
+	)
+	(sheet
+		(at 149.86 82.55)
+		(size 29.21 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ddc2f42-49d8-44b8-acf8-7a4221ab2b02")
+		(property "Sheetname" "Microcontroller"
+			(at 149.86 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 149.86 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 149.86 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6751428-2ce9-4466-b0a7-e6bebc642157")
+		)
+		(pin "USB_D-" bidirectional
+			(at 149.86 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4387c212-0299-415a-9dba-990c869941f2")
+		)
+		(pin "UART_~{RTS}" input
+			(at 149.86 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "211f94e7-5cb5-4076-8b9d-577be42bb67d")
+		)
+		(pin "UART_RXD" input
+			(at 149.86 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8655210-a74c-4777-bcf0-7820021f0ed4")
+		)
+		(pin "UART_TXD" output
+			(at 149.86 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54d86b8d-55a7-4aa7-a873-c9fccb0b406a")
+		)
+		(pin "UART_~{DTR}" input
+			(at 149.86 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f885a5b4-f1dd-45c1-bf71-808f515ef93a")
+		)
+		(pin "PERI_SDA" bidirectional
+			(at 149.86 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1858f973-2c4e-4fec-a4f7-43eff8c11b26")
+		)
+		(pin "PERI_SCL" bidirectional
+			(at 149.86 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86ed941e-2285-4449-ab28-b93d8274a782")
+		)
+		(pin "SOIL_SENSE" input
+			(at 149.86 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a65685e9-7d55-4f97-abcc-1b493c111a13")
+		)
+		(pin "SOIL_EN" output
+			(at 149.86 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "df875913-28be-4c0d-b8b7-dfa63f737b86")
+		)
+		(pin "LTR_INT" input
+			(at 149.86 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e814e8a3-22fc-4d93-9dc0-932dfd5cff74")
+		)
+		(instances
+			(project "GreenNet"
+				(path "/189669a5-f2fc-4cde-9413-8df80c557655"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 82.55)
+		(size 20.32 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bb1724a-9783-4669-873d-86bb73735874")
+		(property "Sheetname" "Input"
+			(at 116.84 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input.kicad_sch"
+			(at 116.84 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0155335-b79c-4c7a-b015-3889bf40128e")
+		)
+		(pin "USB_D+" bidirectional
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5c66fe0-3928-4943-a51b-1140077b7406")
+		)
+		(pin "UART_RXD" input
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "81061426-db75-474c-acef-ee43456b25b6")
+		)
+		(pin "UART_~{RTS}" output
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "073a182a-9131-4e28-8cad-08d41e02045b")
+		)
+		(pin "UART_~{DTR}" output
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7304dcd-afec-44b8-bbb0-65c63c470e64")
+		)
+		(pin "UART_TXD" output
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43935217-03e9-4bc9-9762-3f7a730da8d5")
+		)
+		(pin "SOIL_EN" input
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4927e66-1cab-40c0-9ba3-54373aa7e62c")
+		)
+		(pin "SOIL_SENSE" output
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c168b175-a291-49c6-83dd-7bb18f080e1e")
+		)
+		(pin "LTR_INT" output
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1d5141c-62cf-44b6-8a6f-553e9ca70cf0")
+		)
+		(pin "PERI_SDA" bidirectional
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42116d9c-7c3c-4c4e-8d0c-68ce4269f1da")
+		)
+		(pin "PERI_SCL" bidirectional
+			(at 137.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e1a8a7b-5fa8-45b4-bb83-a10c7fdd0583")
+		)
+		(instances
+			(project "GreenNet"
+				(path "/189669a5-f2fc-4cde-9413-8df80c557655"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

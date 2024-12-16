@@ -1,0 +1,4 @@
+!--- ESP32-S3 Relevant Links ---!
+
+Hardware Design Guidelines - https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/index.html
+LCD Dev Board - https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-lcd-ev-board/index.html
